@@ -1,0 +1,7 @@
+/* ITCSS: Generic
+   Normalize/reset, base generic styles, box-sizing, etc. */
+
+/* Placeholder generic rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+}

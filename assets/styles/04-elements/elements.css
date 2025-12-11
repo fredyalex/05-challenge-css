@@ -1,0 +1,7 @@
+/* ITCSS: Elements
+   Unclassed HTML elements (type selectors) styling. */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
