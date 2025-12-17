@@ -1,7 +1,19 @@
 /* ITCSS: Elements
    Unclassed HTML elements (type selectors) styling. */
 
-html, body {
+html, body, h1, h3, p, img {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: var(--ff-body), sans-serif;
+    font-size: var(--fs-body);
+    color: var(--color-text-body);
+    background-color: var(--color-bg-page);
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
 }

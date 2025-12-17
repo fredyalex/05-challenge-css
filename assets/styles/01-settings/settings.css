@@ -1,7 +1,8 @@
 /* ITCSS: Settings
-   Global variables, color palettes, typography scales, z-indexes, etc. */
-
-/* Example placeholder variables (plain CSS custom properties) */
-:root {
-
-}
+   Global variables, color palettes, typography scales, z-indexes, etc.
+*/
+@import "./colors.css";
+@import "./fonts.css";
+@import "./typography.css";
+@import "./spacing.css";
+@import "./shapes.css";

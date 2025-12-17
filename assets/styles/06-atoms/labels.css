@@ -1,0 +1,7 @@
+.a-category {
+    font-family: var(--ff-category), serif;
+    font-size: var(--fs-small);
+    font-weight: var(--fw-heading-md);
+    letter-spacing: var(--space-2);
+    text-transform: uppercase;
+}

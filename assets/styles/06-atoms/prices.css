@@ -1,0 +1,10 @@
+.a-price-new {
+    color: var(--color-green-500);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-heading), serif;
+    font-size: 2rem;
+}
+
+.a-price-old {
+    text-decoration: line-through;
+}

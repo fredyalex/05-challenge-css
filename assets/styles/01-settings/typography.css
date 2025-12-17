@@ -1,0 +1,47 @@
+/* ITCSS: Settings → Typography tokens
+   Definición de variables para familias, tamaños, pesos, line-height y letter-spacing
+*/
+
+:root {
+    /* Escala tipográfica (Minor Third ≈ 1.2) derivada de --fs-base */
+    --fs-sm: calc(var(--fs-base) / 1.2); /* ≈ 11.667px ≈ 0.729rem */
+    --fs-base: 0.875rem; /* 14px */
+    --fs-md: calc(var(--fs-base) * 1.2); /* ≈ 16.8px = 1.05rem */
+    --fs-lg: calc(var(--fs-base) * 1.44); /* 1.2^2 ≈ 20.16px = 1.26rem */
+    --fs-xl: calc(var(--fs-base) * 1.728); /* 1.2^3 ≈ 24.192px = 1.512rem */
+    --fs-xxl: calc(var(--fs-base) * 2.074); /* 1.2^4 ≈ 28.99px = 1.812rem */
+
+    /* Familias tipográficas */
+    --font-serif: "Fraunces";
+    --font-sans: "Montserrat";
+
+    /* Pesos tipograficos */
+    --fw-regular: 500;
+    --fw-bold: 700;
+
+    /* Alturas de línea */
+    --lh-md: calc(var(--lh-base) * 0.95);
+    --lh-lg: calc(var(--lh-base) * 0.90);
+    --lh-xl: calc(var(--lh-base) * 0.85);
+    --lh-base: 1.5;
+    --lh-small: 1.1;
+
+    /* Alias semánticos para uso en Elements/Components */
+    --ff-body: var(--font-sans);
+    --ff-category: var(--font-sans);
+    --ff-heading: var(--font-serif);
+
+    /* Tamaños semánticos (mapa a la escala de arriba) */
+    --fs-heading-xxl: var(--fs-xxl);
+    --fs-heading-xl: var(--fs-xl);
+    --fs-heading-lg: var(--fs-lg);
+    --fs-heading-md: var(--fs-md);
+    --fs-body: var(--fs-base);
+    --fs-small: var(--fs-sm);
+
+    /* Alias semánticos de peso */
+    --fw-body: var(--fw-regular);
+    --fw-heading-xl: var(--fw-bold);
+    --fw-heading-md: var(--fw-regular);
+}
+

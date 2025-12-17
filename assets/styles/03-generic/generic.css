@@ -1,6 +1,8 @@
 /* ITCSS: Generic
    Normalize/reset, base generic styles, box-sizing, etc. */
 
+@import "./normalize.css";
+
 /* Placeholder generic rules */
 *, *::before, *::after {
     box-sizing: border-box;

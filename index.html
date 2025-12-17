@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="assets/styles/styles.css">
-  
-  <title>Frontend Mentor | Product preview card component</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="stylesheet" href="assets/styles/styles.css">
 
-  Perfume
-
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
-</body>
+        <title>Frontend Mentor | Product preview card component</title>
+    </head>
+    <body class="o-flex-center">
+        <section class="og-product-card">
+            <img class="og-product-card__image" src="./assets/images/image-product-mobile.jpg" alt="product">
+            <div class="og-product-card__content">
+                <span class="a-category">Perfume</span>
+                <h1 class="og-product-card__title">Gabrielle Essence Eau De Parfum</h1>
+                <p class="og-product-card__description">
+                    A floral, solar and voluptuous interpretation composed by Olivier Polge,
+                    Perfumer-Creator for the House of CHANEL.
+                </p>
+                <div class="m-price-group">
+                    <div class="a-price-new">$149.99</div>
+                    <div class="a-price-old">$169.99</div>
+                </div>
+                <button class="a-button">
+                    <img class="a-button__icon" src="./assets/images/icon-cart.svg" alt="">
+                    Add to Cart
+                </button>
+            </div>
+        </section>
+    </body>
 </html>
